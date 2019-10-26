@@ -1,0 +1,20 @@
+Computer science is challenging, and yet dynamic. It requires people in the field to be 
+keep learning and pushing the limit. That fast-pacing innovation of technology never stops 
+amazing me, which excites my innate curiosity even more. I, however, had never thought 
+about pursuing computer science as a career until I took an introductory class in my junior
+ year. It sparked my interest and changed my thoughts after seeing what I could do with 
+some simple line of codes. Despite of many countless times sitting in front of the computer
+ screen trying out figure how to do solve a problem, those "Aha" moments were more precious
+ and exciting for me. For every minute like that, I was exhilarating and smiled as if I 
+have just won an Olympics' gold medal in a 100-meter racing swim lap. It fed my hunger for 
+exploration to see what else I could do, may be something beyond my imagination. Computer 
+science gradually became my hobby in my senior year. I searched many online resources to 
+finally find Codeacademy and later Udacity. I first learned about HTML and CSS on 
+CodeAcademy to make some simple websites, but I was not satisfied with it.
+
+ Meanwhile, I found out about Udacity, offered a well-written and easy-to-follow 
+introductory course in Python to make my own Google search. These experiences slowly pull 
+me into the course of a new career, computer science. Pursuing a degree in this field can 
+provide me knowledge and skills and along with my passion to bring changes to 
+people's daily lives starting from mobile application. I want to be a part of this 
+evolution of technology.
