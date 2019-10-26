@@ -1,8 +1,8 @@
 # CSE LAB
 
-This is the  lab work I have done during the Undergraduate Years in the Department of Computer Science and Engineering 
-at Jadavpur University from 2017 to ongoing.
-All the detailed syllabus for CSE is [here](http://www.jaduniv.edu.in/upload_files/course_file/1408615750-1.pdf) .
+This is the  lab work which I have done during the Undergraduate Years(2017-2021) in the Department of Computer Science and Engineering 
+at Jadavpur University.
+All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_files/course_file/1408615750-1.pdf) .
 
 ---
 
