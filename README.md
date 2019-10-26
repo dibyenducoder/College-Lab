@@ -8,6 +8,15 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 
 ## LABORATORY WORK
 
+## 1ST YEAR
+
+1st Sem
+
+2nd Sem
+ * Introduction to C language
+ 
+---
+
 ### 2ND YEAR
 							
 3rd Sem 
