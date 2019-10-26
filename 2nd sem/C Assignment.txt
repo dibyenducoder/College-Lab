@@ -1,1 +1,72 @@
+Assignments in C Programming Lab
+For
+BCSE 1st Year, 2nd Sem, 2017-2018
+
+
+INSTRUCTIONS :-
+
+Please keep a note of the updates of assignments in this list for this semester.
+You can do assignments at your own pace. However, all these assignments must be uploaded on the server for evaluation
+Programs must be shown to the respective faculties for evaluation.
+The programs must be written, not printed while submitting.
+Written programs must have a sample output of the program. 
+The written programs and uploaded programs on server will be graded based on the following
+Remarks and comments
+Indentation
+Programming style with variable naming.
+Innovation of programming styles
+Output
+There will be two classes of programs : Hard and simple problems
+All simple programs are compulsory
+Attempt hard problems, HOWEVER, they are not all compulsory. 
+Extra credit will be given to students who attempt the hard problems.
+Please note the assignment name should be given as follows
+<Assignment Type><assignment number>.c
+Eg if you are attempting Simple problem 2, then your program name will be sp2.c
+If you are attempting Hard problem 2, then your program name will be hp2.c
+
+
+SIMPLE PROBLEMS (SP)
+
+Use while-do and do-while constructs to solve Problem 1, 2 and 3
+
+Write a Program (WAP) to extract the numbers of a given integer number (No arrays allowed)
+WAP to convert integer numbers to roman numerals (No arrays allowed)
+WAP to convert integer numbers to words (No arrays allowed). 
+Given 3 numbers, find the min and max of them, while scanning the numbers once (No arrays allowed)
+Given 4 numbers,  find the min and max of them (No arrays allowed)
+Write a program to find the difference between if-then-else and switch statements. You can work the same with problem 3 and 4 as an example
+Give a decision tree to emulate the program. 
+Given 4 numbers, find the sum and average of the same (No arrays allowed)
+WAP to print the values of sin (using expansion series, as shown by AK sir in class), sin, cos, tan (the latter three using library function in maths.h)
+WAP to print the graphs for sin and cos using characters in the same plot. The axis of the graph should be also shown. You can print the graph either horizontally or vertically
+Implement the Newton-Raphson method to find the root of an equation.
+WAP to find A x B x C, where A={1,2,3,4,5}, B={1,2,3} and C={1,2,3,4}. Please note, you can use only one loop and only one printf command, i.e. your program should contain only two lines of code, excluding the main(), #include statements and variable initialization. You cannot use arrays
+WAP to factorize a given number. Also, give the prime factors of the given number. If the number is prime then, print “The Number <number> is prime”
+WAP to find the accuracy between the sum (1/n + 1/n + … n times) and 1. Also, display the result.
+Convert an integer to its equivalent binary number
+
+WAP to copy a file to a new file, where all small letters are converted to capital letters and vice versa.
+E.g if a file text.txt contains a line “Hello World !!”, copytext.txt will have its equivalent as “hELLO wORLD !!”
+Continue taking integer inputs into an integer array through the terminal unitil 0/’X’/’x’ is not entered. As one does not know the number of inputs, allocate the integer array dynamically, i.e. it grows as the number of inputs increases. Sort the integer array and find the mean, median and mode of the array.
+WAP to sort a students database having an unknown number of rows of [fields : char name[10],int subject1, int subject2] according to the average of subject1 and subject2. The database should be read from a file, the data represented as:
+		
+		name1   10   20
+		Name1   30  10 
+		………
+	The sorted data, with the average should be written into another file. 
+
+
+
+HARD PROBLEMS (HP)
+
+Invert a given real number, reverse the number eg i/p : 123.4567; o/p : 321.7654 (No arrays allowed)
+Invert a given real number, reverse the number eg i/p : 123.4567; o/p : 7654.321 (No arrays allowed)
+Simulate the angry birds game. Imagine that the bird is above a cliff and the pig is below on the plain. The pig will be placed randomly on the plain at a random position (check random function). The user will be given information about the height of the cliff and the distance of the pig from the foot of the cliff. The user will be asked the angle and initial velocity to throw the stone. The path of the stone will be tracked and a point will be scored if the pig is hit
+For a given integer n, print the Pascal’s Triangle for n rows.
+Write two programs (HP5a.c and HP5b.c):
+WAP to make a file, data.txt with 6 columns, where each column will have 6 integer numbers. The file will have 50 rows of the types of described columns. The numbers can be generated randomly seeded with the time/date of the machine. Check rand() function for this purpose.
+WAP to read the data.txt. Make a new file resultdata.txt with 3 columns, where each column will have the standard deviation, average and median of each column. Give appropriate heading to each column.
+Generate a file with random data. In the file, search for a two digit number. If the number exists, then count the frequency of the two digit number. You cannot use arrays.
+
 
