@@ -8,7 +8,7 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 
 ## LABORATORY WORK
 
-## 1ST YEAR
+### 1ST YEAR
 
 1st Sem
 
