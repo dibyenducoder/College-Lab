@@ -1,0 +1,15 @@
+		Trapezoidal Method
+
+Lower Limit : 0.000000 
+ Upper limit : 1.000000 
+ Number of intervals :6
+X           Y values :
+0.000000    1.000000
+0.166667    0.972973
+0.333333    0.900000
+0.500000    0.800000
+0.666667    0.692308
+0.833333    0.590164
+1.000000    0.500000
+
+Final Integration : 0.784241

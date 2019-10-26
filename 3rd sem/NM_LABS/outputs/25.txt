@@ -1,0 +1,20 @@
+Simpson's 1/3 Rule
+
+
+Modified Values:
+
+Mid Point:	6
+
+Width:	0.200000
+
+Y values
+
+Y[0] = 1.386294
+Y[1] = 1.435084
+Y[2] = 1.481605
+Y[3] = 1.526056
+Y[4] = 1.568616
+Y[5] = 1.609438
+Y[6] = 1.648659
+
+Simpson's Rule Integration:	1.827847
