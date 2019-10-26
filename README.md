@@ -7,26 +7,24 @@ All the detailed syllabus for CSE is [here](http://www.jaduniv.edu.in/upload_fil
 ---
 
 ## LABORATORY WORK
----
 
 ### 2ND YEAR
----
 							
-   ##### 3rd Sem 
-   *Data Structures and Algorithms
-   *Numerical Methods
+3rd Sem 
+ * Data Structures and Algorithms
+ * Numerical Methods
 
-  ##### 4th Sem
-   *Object Oriented Programming
+4th Sem
+ * Object Oriented Programming
 
 ---
 
 ### 3RD YEAR
----
-  ##### 5th Sem(continue)
-   *Operating System
-   *System Programming
-   *Computer Graphics 
+
+5th Sem(continue)
+ * Operating System
+ * System Programming
+ * Computer Graphics 
 
 
 
