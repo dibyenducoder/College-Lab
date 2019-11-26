@@ -1,0 +1,85 @@
+.286
+.MODEL SMALL
+.STACK 100H
+.DATA 
+  PROMPT1 DB 10,13,'The series is : $'
+  N DB ?
+  COUNT DB ?
+  REM DW ?
+
+.CODE
+
+  DOUTPUT PROC
+    XOR CX,CX
+    MOV CL,COUNT
+
+    MOV BL,10
+    XOR AH,AH
+    MOV AL,N
+
+    LPO:
+      DIV BL
+      XOR DX,DX
+      MOV DL,AH
+      ADD DL,48
+      XOR AH,AH
+      PUSH DX
+    LOOP LPO
+
+    XOR CX,CX
+    MOV CL,COUNT
+    MOV AH,2
+    LPO2:
+      POP DX
+      INT 21H
+      DEC CL
+      JNZ LPO2
+    RET
+  DOUTPUT ENDP
+
+  MAIN PROC
+    MOV AX,@DATA
+	MOV DS,AX        
+	  
+	LEA DX, PROMPT1
+	MOV AH,9
+	INT 21H
+
+	MOV BL,0
+    MOV BH,1
+
+	MOV COUNT,1
+	MOV DL,30H
+	MOV AH,2
+	INT 21H
+	MOV DL,20H
+	INT 21H
+	MOV DL,31H
+	INT 21H
+	MOV DL,20H
+	INT 21H
+	XOR CX,CX
+	MOV CL,8
+
+
+	LP:
+	  MOV CH,BH
+	  ADD BH,BL
+	  MOV N,BH
+	  CMP CL,3
+	  JG OP
+	  MOV COUNT,2
+	  OP:
+	    PUSHA
+	    CALL DOUTPUT
+	    POPA
+	  MOV DL,20H
+	  INT 21H
+	  MOV BL,CH
+	  DEC CL
+	  JNZ LP
+
+	MOV AH,4CH
+	INT 21H
+  MAIN ENDP
+END MAIN
