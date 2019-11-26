@@ -1,0 +1,13 @@
+2000: 		mvi a,00
+2002: 		mvi b,01
+2004: 		mvi c,05
+2006: 		lxi h,3000 
+2009: loop:	add m 
+200A: 		inx h 
+200B: abc:	dcr c
+200C: def:	jnz loop
+200F: 		add c
+2010: 		adi 08
+2012: 		mvi c,0A
+2014: 		add c
+2015: 		hlt

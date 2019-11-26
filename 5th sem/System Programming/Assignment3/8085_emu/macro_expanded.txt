@@ -1,0 +1,13 @@
+		mvi a,00
+		mvi b,01
+		mvi c,05
+		lxi h,3000 
+loop:	add m 
+		inx h 
+abc:	dcr c
+def:	jnz loop
+		add c
+		adi 08
+		mvi c,0A
+		add c
+		hlt

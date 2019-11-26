@@ -1,0 +1,984 @@
+else if(is(I, "CE")) // ACI  
+{
+
+}
+else if(is(I, "8F")) // ADC A  
+{
+
+}
+else if(is(I, "88")) // ADC B  
+{
+
+}
+else if(is(I, "89")) // ADC C  
+{
+
+}
+else if(is(I, "8A")) // ADC D  
+{
+
+}
+else if(is(I, "8B")) // ADC E  
+{
+
+}
+else if(is(I, "8C")) // ADC H  
+{
+
+}
+else if(is(I, "8D")) // ADC L  
+{
+
+}
+else if(is(I, "8E")) // ADC M  
+{
+
+}
+else if(is(I, "87")) // ADD A  
+{
+
+}
+else if(is(I, "80")) // ADD B  
+{
+
+}
+else if(is(I, "81")) // ADD C  
+{
+
+}
+else if(is(I, "82")) // ADD D  
+{
+
+}
+else if(is(I, "83")) // ADD E  
+{
+
+}
+else if(is(I, "84")) // ADD H  
+{
+
+}
+else if(is(I, "85")) // ADD L  
+{
+
+}
+else if(is(I, "86")) // ADD M  
+{
+
+}
+else if(is(I, "C6")) // ADI  
+{
+
+}
+else if(is(I, "A7")) // ANA A  
+{
+
+}
+else if(is(I, "A0")) // ANA B  
+{
+
+}
+else if(is(I, "A1")) // ANA C  
+{
+
+}
+else if(is(I, "A2")) // ANA D  
+{
+
+}
+else if(is(I, "A3")) // ANA E  
+{
+
+}
+else if(is(I, "A4")) // ANA H  
+{
+
+}
+else if(is(I, "A5")) // ANA L  
+{
+
+}
+else if(is(I, "A6")) // ANA M  
+{
+
+}
+else if(is(I, "E6")) // ANI  
+{
+
+}
+else if(is(I, "CD")) // CALL  
+{
+
+}
+else if(is(I, "DC")) // CC  
+{
+
+}
+else if(is(I, "FC")) // CM  
+{
+
+}
+else if(is(I, "2F")) // CMA  
+{
+
+}
+else if(is(I, "3F")) // CMC  
+{
+
+}
+else if(is(I, "BF")) // CMP A  
+{
+
+}
+else if(is(I, "B8")) // CMP B  
+{
+
+}
+else if(is(I, "B9")) // CMP C  
+{
+
+}
+else if(is(I, "BA")) // CMP D  
+{
+
+}
+else if(is(I, "BB")) // CMP E  
+{
+
+}
+else if(is(I, "BC")) // CMP H  
+{
+
+}
+else if(is(I, "BD")) // CMP L  
+{
+
+}
+else if(is(I, "BE")) // CMP M  
+{
+
+}
+else if(is(I, "D4")) // CNC  
+{
+
+}
+else if(is(I, "C4")) // CNZ  
+{
+
+}
+else if(is(I, "F4")) // CP  
+{
+
+}
+else if(is(I, "EC")) // CPE  
+{
+
+}
+else if(is(I, "FE")) // CPI  
+{
+
+}
+else if(is(I, "E4")) // CPO  
+{
+
+}
+else if(is(I, "CC")) // CZ  
+{
+
+}
+else if(is(I, "27")) // DAA  
+{
+
+}
+else if(is(I, "09")) // DAD B  
+{
+
+}
+else if(is(I, "19")) // DAD D  
+{
+
+}
+else if(is(I, "29")) // DAD H  
+{
+
+}
+else if(is(I, "39")) // DAD SP  
+{
+
+}
+else if(is(I, "3D")) // DCR A  
+{
+
+}
+else if(is(I, "05")) // DCR B  
+{
+
+}
+else if(is(I, "0D")) // DCR C  
+{
+
+}
+else if(is(I, "15")) // DCR D  
+{
+
+}
+else if(is(I, "1D")) // DCR E  
+{
+
+}
+else if(is(I, "25")) // DCR H  
+{
+
+}
+else if(is(I, "2D")) // DCR L  
+{
+
+}
+else if(is(I, "35")) // DCR M  
+{
+
+}
+else if(is(I, "0B")) // DCX B  
+{
+
+}
+else if(is(I, "1B")) // DCX D  
+{
+
+}
+else if(is(I, "2B")) // DCX H  
+{
+
+}
+else if(is(I, "3B")) // DCX SP  
+{
+
+}
+else if(is(I, "F3")) // DI  
+{
+
+}
+else if(is(I, "FB")) // EI  
+{
+
+}
+else if(is(I, "76")) // HLT  
+{
+
+}
+else if(is(I, "address")) // IN Port 
+{
+
+}
+else if(is(I, "3C")) // INR A  
+{
+
+}
+else if(is(I, "04")) // INR B  
+{
+
+}
+else if(is(I, "0C")) // INR C  
+{
+
+}
+else if(is(I, "14")) // INR D  
+{
+
+}
+else if(is(I, "1C")) // INR E  
+{
+
+}
+else if(is(I, "24")) // INR H  
+{
+
+}
+else if(is(I, "2C")) // INR L  
+{
+
+}
+else if(is(I, "34")) // INR M  
+{
+
+}
+else if(is(I, "03")) // INX B  
+{
+
+}
+else if(is(I, "13")) // INX D  
+{
+
+}
+else if(is(I, "23")) // INX H  
+{
+
+}
+else if(is(I, "33")) // INX SP  
+{
+
+}
+else if(is(I, "DA")) // JC  
+{
+
+}
+else if(is(I, "FA")) // JM  
+{
+
+}
+else if(is(I, "C3")) // JMP  
+{
+
+}
+else if(is(I, "D2")) // JNC  
+{
+
+}
+else if(is(I, "C2")) // JNZ  
+{
+
+}
+else if(is(I, "F2")) // JP  
+{
+
+}
+else if(is(I, "EA")) // JPE  
+{
+
+}
+else if(is(I, "E2")) // JPO  
+{
+
+}
+else if(is(I, "CA")) // JZ  
+{
+
+}
+else if(is(I, "3A")) // LDA   
+{
+
+}
+else if(is(I, "0A")) // LDAX B  
+{
+
+}
+else if(is(I, "1A")) // LDAX D  
+{
+
+}
+else if(is(I, "2A")) // LHLD   
+{
+
+}
+else if(is(I, "01")) // LXI B  
+{
+
+}
+else if(is(I, "11")) // LXI D  
+{
+
+}
+else if(is(I, "21")) // LXI H  
+{
+
+}
+else if(is(I, "31")) // LXI SP  
+{
+
+}
+else if(is(I, "7F")) // MOV A, A  
+{
+
+}
+else if(is(I, "78")) // MOV A, B  
+{
+
+}
+else if(is(I, "79")) // MOV A, C  
+{
+
+}
+else if(is(I, "7A")) // MOV A, D  
+{
+
+}
+else if(is(I, "7B")) // MOV A, E  
+{
+
+}
+else if(is(I, "7C")) // MOV A, H  
+{
+
+}
+else if(is(I, "7D")) // MOV A, L  
+{
+
+}
+else if(is(I, "7E")) // MOV A, M  
+{
+
+}
+else if(is(I, "47")) // MOV B, A  
+{
+
+}
+else if(is(I, "40")) // MOV B, B  
+{
+
+}
+else if(is(I, "41")) // MOV B, C  
+{
+
+}
+else if(is(I, "42")) // MOV B, D  
+{
+
+}
+else if(is(I, "43")) // MOV B, E  
+{
+
+}
+else if(is(I, "44")) // MOV B, H  
+{
+
+}
+else if(is(I, "45")) // MOV B, L  
+{
+
+}
+else if(is(I, "46")) // MOV B, M  
+{
+
+}
+else if(is(I, "4F")) // MOV C, A  
+{
+
+}
+else if(is(I, "48")) // MOV C, B  
+{
+
+}
+else if(is(I, "49")) // MOV C, C  
+{
+
+}
+else if(is(I, "4A")) // MOV C, D  
+{
+
+}
+else if(is(I, "4B")) // MOV C, E  
+{
+
+}
+else if(is(I, "4C")) // MOV C, H  
+{
+
+}
+else if(is(I, "4D")) // MOV C, L  
+{
+
+}
+else if(is(I, "4E")) // MOV C, M  
+{
+
+}
+else if(is(I, "57")) // MOV D, A  
+{
+
+}
+else if(is(I, "50")) // MOV D, B  
+{
+
+}
+else if(is(I, "51")) // MOV D, C  
+{
+
+}
+else if(is(I, "52")) // MOV D, D  
+{
+
+}
+else if(is(I, "53")) // MOV D, E  
+{
+
+}
+else if(is(I, "54")) // MOV D, H  
+{
+
+}
+else if(is(I, "55")) // MOV D, L  
+{
+
+}
+else if(is(I, "56")) // MOV D, M  
+{
+
+}
+else if(is(I, "5F")) // MOV E, A  
+{
+
+}
+else if(is(I, "58")) // MOV E, B  
+{
+
+}
+else if(is(I, "59")) // MOV E, C  
+{
+
+}
+else if(is(I, "5A")) // MOV E, D  
+{
+
+}
+else if(is(I, "5B")) // MOV E, E  
+{
+
+}
+else if(is(I, "5C")) // MOV E, H  
+{
+
+}
+else if(is(I, "5D")) // MOV E, L  
+{
+
+}
+else if(is(I, "5E")) // MOV E, M  
+{
+
+}
+else if(is(I, "67")) // MOV H, A  
+{
+
+}
+else if(is(I, "60")) // MOV H, B  
+{
+
+}
+else if(is(I, "61")) // MOV H, C  
+{
+
+}
+else if(is(I, "62")) // MOV H, D  
+{
+
+}
+else if(is(I, "63")) // MOV H, E  
+{
+
+}
+else if(is(I, "64")) // MOV H, H  
+{
+
+}
+else if(is(I, "65")) // MOV H, L  
+{
+
+}
+else if(is(I, "66")) // MOV H, M  
+{
+
+}
+else if(is(I, "6F")) // MOV L, A  
+{
+
+}
+else if(is(I, "68")) // MOV L, B  
+{
+
+}
+else if(is(I, "69")) // MOV L, C  
+{
+
+}
+else if(is(I, "6A")) // MOV L, D  
+{
+
+}
+else if(is(I, "6B")) // MOV L, E  
+{
+
+}
+else if(is(I, "6C")) // MOV L, H  
+{
+
+}
+else if(is(I, "6D")) // MOV L, L  
+{
+
+}
+else if(is(I, "6E")) // MOV L, M  
+{
+
+}
+else if(is(I, "77")) // MOV M, A  
+{
+
+}
+else if(is(I, "70")) // MOV M, B  
+{
+
+}
+else if(is(I, "71")) // MOV M, C  
+{
+
+}
+else if(is(I, "72")) // MOV M, D  
+{
+
+}
+else if(is(I, "73")) // MOV M, E  
+{
+
+}
+else if(is(I, "74")) // MOV M, H  
+{
+
+}
+else if(is(I, "75")) // MOV M, L  
+{
+
+}
+else if(is(I, "3E")) // MVI A,  
+{
+
+}
+else if(is(I, "06")) // MVI B,  
+{
+
+}
+else if(is(I, "0E")) // MVI C,  
+{
+
+}
+else if(is(I, "16")) // MVI D,  
+{
+
+}
+else if(is(I, "1E")) // MVI E,  
+{
+
+}
+else if(is(I, "26")) // MVI H,  
+{
+
+}
+else if(is(I, "2E")) // MVI L,  
+{
+
+}
+else if(is(I, "36")) // MVI M,  
+{
+
+}
+else if(is(I, "00")) // NOP  
+{
+
+}
+else if(is(I, "B7")) // ORA A  
+{
+
+}
+else if(is(I, "B0")) // ORA B  
+{
+
+}
+else if(is(I, "B1")) // ORA C  
+{
+
+}
+else if(is(I, "B2")) // ORA D  
+{
+
+}
+else if(is(I, "B3")) // ORA E  
+{
+
+}
+else if(is(I, "B4")) // ORA H  
+{
+
+}
+else if(is(I, "B5")) // ORA L  
+{
+
+}
+else if(is(I, "B6")) // ORA M  
+{
+
+}
+else if(is(I, "F6")) // ORI  
+{
+
+}
+else if(is(I, "-")) // OUT Port 
+{
+
+}
+else if(is(I, "E9")) // PCHL  
+{
+
+}
+else if(is(I, "C1")) // POP B  
+{
+
+}
+else if(is(I, "D1")) // POP D  
+{
+
+}
+else if(is(I, "E1")) // POP H  
+{
+
+}
+else if(is(I, "F1")) // POP PSW  
+{
+
+}
+else if(is(I, "C5")) // PUSH B  
+{
+
+}
+else if(is(I, "D5")) // PUSH D  
+{
+
+}
+else if(is(I, "E5")) // PUSH H  
+{
+
+}
+else if(is(I, "F5")) // PUSH PSW  
+{
+
+}
+else if(is(I, "17")) // RAL  
+{
+
+}
+else if(is(I, "1F")) // RAR  
+{
+
+}
+else if(is(I, "D8")) // RC  
+{
+
+}
+else if(is(I, "C9")) // RET  
+{
+
+}
+else if(is(I, "20")) // RIM  
+{
+
+}
+else if(is(I, "07")) // RLC  
+{
+
+}
+else if(is(I, "F8")) // RM  
+{
+
+}
+else if(is(I, "D0")) // RNC  
+{
+
+}
+else if(is(I, "C0")) // RNZ  
+{
+
+}
+else if(is(I, "F0")) // RP  
+{
+
+}
+else if(is(I, "E8")) // RPE  
+{
+
+}
+else if(is(I, "E0")) // RPO  
+{
+
+}
+else if(is(I, "0F")) // RRC  
+{
+
+}
+else if(is(I, "C7")) // RST 0  
+{
+
+}
+else if(is(I, "CF")) // RST 1  
+{
+
+}
+else if(is(I, "D7")) // RST 2  
+{
+
+}
+else if(is(I, "DF")) // RST 3  
+{
+
+}
+else if(is(I, "E7")) // RST 4  
+{
+
+}
+else if(is(I, "EF")) // RST 5  
+{
+
+}
+else if(is(I, "F7")) // RST 6  
+{
+
+}
+else if(is(I, "FF")) // RST 7  
+{
+
+}
+else if(is(I, "C8")) // RZ  
+{
+
+}
+else if(is(I, "9F")) // SBB A  
+{
+
+}
+else if(is(I, "98")) // SBB B  
+{
+
+}
+else if(is(I, "99")) // SBB C  
+{
+
+}
+else if(is(I, "9A")) // SBB D  
+{
+
+}
+else if(is(I, "9B")) // SBB E  
+{
+
+}
+else if(is(I, "9C")) // SBB H  
+{
+
+}
+else if(is(I, "9D")) // SBB L  
+{
+
+}
+else if(is(I, "9E")) // SBB M  
+{
+
+}
+else if(is(I, "DE")) // SBI  
+{
+
+}
+else if(is(I, "22")) // SHLD   
+{
+
+}
+else if(is(I, "30")) // SIM  
+{
+
+}
+else if(is(I, "F9")) // SPHL  
+{
+
+}
+else if(is(I, "32")) // STA   
+{
+
+}
+else if(is(I, "02")) // STAX B  
+{
+
+}
+else if(is(I, "12")) // STAX D  
+{
+
+}
+else if(is(I, "37")) // STC  
+{
+
+}
+else if(is(I, "97")) // SUB A  
+{
+
+}
+else if(is(I, "90")) // SUB B  
+{
+
+}
+else if(is(I, "91")) // SUB C  
+{
+
+}
+else if(is(I, "92")) // SUB D  
+{
+
+}
+else if(is(I, "93")) // SUB E  
+{
+
+}
+else if(is(I, "94")) // SUB H  
+{
+
+}
+else if(is(I, "95")) // SUB L  
+{
+
+}
+else if(is(I, "96")) // SUB M  
+{
+
+}
+else if(is(I, "D6")) // SUI  
+{
+
+}
+else if(is(I, "EB")) // XCHG  
+{
+
+}
+else if(is(I, "AF")) // XRA A  
+{
+
+}
+else if(is(I, "A8")) // XRA B  
+{
+
+}
+else if(is(I, "A9")) // XRA C  
+{
+
+}
+else if(is(I, "AA")) // XRA D  
+{
+
+}
+else if(is(I, "AB")) // XRA E  
+{
+
+}
+else if(is(I, "AC")) // XRA H  
+{
+
+}
+else if(is(I, "AD")) // XRA L  
+{
+
+}
+else if(is(I, "AE")) // XRA M  
+{
+
+}
+else if(is(I, "EE")) // XRI  
+{
+
+}
+else if(is(I, "E3")) // XTHL  
+{
+
+}
