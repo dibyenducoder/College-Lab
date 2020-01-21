@@ -30,10 +30,15 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 
 ### 3RD YEAR
 
-5th Sem(continue)
+5th Sem
  * Operating System
  * System Programming
  * Computer Graphics 
+ 
+6th Sem(continue)
+ * Compiler Design
+ * DBMS
+ * Computer Network 
 
 
 
