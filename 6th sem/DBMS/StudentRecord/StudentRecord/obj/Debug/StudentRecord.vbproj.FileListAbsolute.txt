@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\bin\Debug\StudentRecord.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\bin\Debug\StudentRecord.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\bin\Debug\StudentRecord.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.Form1.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.Resources.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\StudentRecord\StudentRecord\obj\Debug\StudentRecord.pdb
