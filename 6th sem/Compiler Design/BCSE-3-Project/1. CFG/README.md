@@ -122,7 +122,7 @@ Grammatical production Rules
 2. ```<rtype>```	:= Return type, means the function that returns the value 
 3. ```<dec_list>```	:= Declaration list, where to declare the variables as well as constant 
 4. ```<stmt_list>```	:= Statement list, a list of statements are provided for assignment or for other purpose like for loop, if statement, etc.
-5. ```<stmt>```		:=
+5. ```<stmt>```		:= Statement name. 
 6. ```<dtype>```	:= Data type, means the type of data such as int, char, float, double, etc.
 7. ```<id_list>```	:= A list of identifiers
 8. ```<id>```		:= May have variable or char or strings 
