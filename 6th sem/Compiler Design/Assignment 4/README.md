@@ -1,7 +1,7 @@
 Lex is a tool for building lexical analyzers, that can do some rather lexical stuff like finding keywords, identifiers,etc. Yacc is a parser generator, that can create parsers for real computer languages. Its analysis is normally based upon the output of lex (which is a stream of tokens) and from this we can create our parse-tree of the programming language which is something that is more than lex does.
 Therefore,lex and yacc are normally used together. This is how we usually construct an application using both
 
-Input Stream (characters) -> Lex (tokens) -> Yacc (Syntax Tree) -> Our Applcation
+            Input Stream (characters) -> Lex (tokens) -> Yacc (Syntax Tree) -> Our Applcation
 
 From the question 1a., we were told to design a grammar to recognise a string of the form AA...ABB...B, i.e. any number of
 `A’s followed by any number of B’s` . Use LEX and YACC to recognise it. Which one is
