@@ -1,0 +1,23 @@
+Page 1 -> Here, this is the presentation that we will talk about how does the cfg was made, how lexical analyzer works with the help of architecture and finally, the design class of top down parser.
+
+page 2-3 -> Thank you, ma'am and thank you sir for giving us the project and opportunity to speak.
+
+page 4 -> We are a team. Without them, we would not be able to solve this project. We divided our tasks into subtasks then we combine it finally and also we helped with each other through discussing in most parts. 
+
+page 5 -> Now, this is the hierachy of classes of formal language and we have learned from this diagram that CFG is the type-2 level which actually implies that it is more powerful than the finite automata, that is Regular expression. '
+
+page 6 -> now coming to the CFG, it is generally useful for describing grammar and also for nested loops structure. 
+          here, see on the right side which is actually the grammar that was done manually. We were provide the c code and manually done this grammar. Here, inside the angle bracket (< >) are the set of the non-terminals.I mean <program>,<return type> and so on are actually a set of non-terminal sets.
+		While, main, int , if, else and so on are the set of terminal symbols. 
+	<program> is actually a start symbol which begins in the initial stage an followed by the terminal and non-terminal symbols. This is done with the help of production rules. A production rules is nothing but a simple rules for replacing nonterminal symbols in a string with other nonterminal or terminal symbols. That is how we have implemented this grammar. 
+
+page 7 -> this is the part 2 of our projects which we have to scan a stream of characters to generate stream of tokens with the help of lexical analyzer. 
+ So, we have design the architecture for this lexical analyzer. Here, this is the source code which is wriiten in C language. A stream of characters is to generate into lexical analyzer. it will tokenize all the input file based on delimiters such as whitespace, operators and so on and these tokens are further analyze to determine the type of token with the help lexanalyzeDFA function and DFA which helps to analyze this and then returns the boolean value. After solving this, then a list of lexeme and tokens will be out. 
+
+page 8-> see the output for the above design, a list of tokens and lexeme is there...
+
+page 9 -> this is the final part of our projects. Our tasks is to build the top down parser which includes first and follow and then finally the table construction. 
+ here is the class diagram... 
+      the cfg was done manually earlier and it is the source input.. it then goes into the top down parser to form the production grammar, and then further , if there is any left recursive, then it should be eliminated and then formed the final production. Here, the first and follow will be done by the parsing algorithm to determine which production is used for parsing the string. And then finally, parsing table is constructed. 
+ and that is the detailed design of the top down parsing .
+page 10 -> Thank you !

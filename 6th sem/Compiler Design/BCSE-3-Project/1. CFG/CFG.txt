@@ -1,0 +1,19 @@
+<program> -> <rtype> main ( ) { <dec_list> <stmt_list> }
+<rtype> -> int | void
+<dec_list> -> <con_type> <dtype> <id_list> 
+<con_type> -> const | eps
+<dtype> -> int | float | char | string | void 
+<id_list> -> id <id_list'>
+<id_list'> -> , id <id_list'> | eps
+<stmt_list> -> <stmt> <stmt_list'> 
+<stmt_list'> -> <stmt> <stmt_list'> | eps
+<stmt> -> <assign> | <if_stmt> | <for_stmt> | <while_stmt>
+<assign> -> id = <exp> 
+<exp> -> <term exp'> 
+<exp'> -> + <term exp'> | - <term exp'> | eps
+<term> -> <factor> <term'>
+<term'> -> * <factor> <term'> | / <factor> <term'> | eps
+<factor> -> id | integer | ( <exp> )
+<for_stmt> -> for ( id = <exp> ; <cndtn> ; id = <exp> ) { <stmt_list> }
+<cndtn> -> <exp> <relop> <exp>
+<relop> -> < | >  
