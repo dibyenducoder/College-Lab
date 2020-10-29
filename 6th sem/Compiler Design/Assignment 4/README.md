@@ -12,7 +12,7 @@ In 1b. The answer to the key remains same as the above solution ,the only differ
 
 ---------------------------------------------------------------------------------------------
 
-Q.Which is OS use ? <br/>
+Q.Which OS is used ? <br/>
 Ans.
     
               Linux
