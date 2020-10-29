@@ -42,77 +42,94 @@ The whole constructed CFG are written in the short form manner.
 ## Designing the grammer and its production
 ------------------------------------------------------------------------
 
-Set of Terminals :
-	main
- 	int 
- 	if 
- 	else
- 	return 
- 	+ 
- 	- 
- 	* 
- 	/ 
- 	= 
- 	( 
- 	) 
- 	{ 
- 	} 
- 	id 
- 	digit 
- 	; 
- 	$
+Set of Terminals :<br />
+	main <br />
+ 	int <br />
+ 	if <br /> 
+ 	else <br />
+ 	return <br /> 
+ 	+ <br /> 
+ 	- <br /> 
+ 	* <br /> 
+ 	/ <br /> 
+ 	= <br /> 
+ 	( <br /> 
+ 	) <br /> 
+ 	{ <br /> 
+ 	} <br /> 
+ 	id <br /> 
+ 	digit <br /> 
+ 	; <br /> 
+ 	$ <br />
 
  Set of Non-terminals 
- -----
- 	<program> <main function> <return type> <variable type> <compound statement> <statement sequence> <statement> <statement recursion> <definition statement> <assignment> <assignment statement> <conditional statement> <Boolean expression Formula> <expression> <term> <term recursion> <factorial> <factorial recursion> <relational operator> <identifier> <constant without sign>
+ ------------------------------
+```<program>``` 
+```<main function>```<br/> 
+```<return type>``` <br />
+```<variable type>```<br/> 
+```<compound statement>```<br/> 
+```<statement sequence>```<br />
+```<statement>```<br/> 
+```<statement recursion>``` <br/> 
+```<definition statement>``` <br />
+```<assignment>```<br/> 
+```<assignment statement>``` <br/> 
+```<conditional statement>``` <br />
+```<Boolean expression Formula>``` <br/>
+```<expression>```<br/> 
+```<term>```<br/> 
+```<term recursion>``` <br />
+```<factorial>```<br/> 
+```<factorial recursion>```<br/> 
+```<relational operator>```<br/> 
+```<identifier>```<br/> 
+```<constant without sign>```
 
 -----------------------------------------
 Grammatical production Rules 
-----*****************************--------------------------
-Non-terminal 								Production
-------------------------------------------------------------------------------------------------
-program							<program> ::= <main function> $
-main_fun						<main function> ::= <return type> main () <compound statement>
-return_type						<return type> ::= <variable type>
-var_type						<variable type> ::= int
-struct_statement				<compound statement> ::= {<statement sequence>}
-statements_list					<statement sequence> ::= <statement> <statement recursion> | ε
-statement						<statement> ::= <definition statement> | <assignment statement> |									<conditional statement> | <compound statement> | return<                                                                                  expression>;
-statements_recursive	        <statement recursion> ::= <statement> <statement recursion> | ε
-define_statement	            <definition statement> ::= <variable type> <identifier> <assign                                 initial value>;
+------------------------------
 
-assign_default	                <assign initial value> ::= = <expression> | ε
-assign_statement	            <assignment statement> ::= <identifier> = <expression>;
-condition_statement	            <conditional statement> ::= if (<boolean expression>) <compound 
-	                           statement> else  <compound statement>
-bool_expression	                <boolean expression> ::= <expression> <relational operator> <                                                          expression>
-expression	                    <expression> ::= <item> <item recursion>
-item	                        <term> ::= <factor> <factor recursion>
-items_recursive	                <item recursion> ::= + <item> <item recursion> |-<item> <item                                  recursion> | ε
-
-factor_recursive	            <factor Recursion> ::= * <factor> <factor Recursion> | / <factor>                                       <factor Recursion> | ε
-factor	                        <factor> ::= <identifier> | <unsigned constant> | (<expression>)
-relation_operator	            <relational operator> ::= equal | less | less_equal | great_than |                                                        great_equal | not_equal
-identifier	                     <identifier> ::= id
-unsigned_const	                 <unsigned constant> ::= digit
+| Non-terminal 				|				Production              							 
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------  
+| program				| ```<program>``` ::= ```<main function>``` $									                 
+| main_fun				| ```<main function>``` ::= ```<return type>``` main () ```<compound statement>``` 			         	
+| return_type				| ```<return type>``` ::= ```<variable type>```								                                 
+| var_type				| ```<variable type>``` ::= int										         			
+| struct_statement			| ```<compound statement>``` ::= {```<statement sequence>```}	                                                         
+| statements_list			| ```<statement sequence>``` ::= ```<statement>``` ```<statement recursion>``` ! ε					         
+| statement				| ```<statement>``` ::= ```<definition statement>``` ! ```<assignment statement>```!```<conditional statement>``` !```<compound 							statement>```  ! return ```<expression>```;           
+| statements_recursive	        	| ```<statement recursion>``` ::= ```<statement>``` ```<statement recursion>``` ! ε						 
+| define_statement	            	| ```<definition statement>``` ::= ```<variable type>``` ```<identifier>``` ```<assign initial value>```;				 
+| assign_default	                | ```<assign initial value>``` ::= = ```<expression>``` ! ε									  
+| assign_statement	            	| ```<assignment statement>``` ::= ```<identifier>``` = ```<expression>```;							 
+| condition_statement	            	| ```<conditional statement>``` ::= if (```<boolean expression>```) ```<compound statement>``` else  ```<compound statement>```		
+| bool_expression	                | ```<boolean expression>``` ::= ```<expression>``` ```<relational operator>``` ```<expression>```					 
+| expression	                    	| ```<expression>``` ::= ```<item>``` ```<item recursion>```								 
+| item	                          	| ```<term>``` ::= ```<factor>``` ```<factor recursion>```									 
+| items_recursive	                | ```<item recursion>``` ::= + ```<item>``` ```<item recursion>``` ! -```<item>``` ```<item recursion>```! ε				
+| factor_recursive	            	| ```<factor Recursion>``` ::= * ```<factor>``` ```<factor Recursion>``` ! / ```<factor>``` ```<factor Recursion>``` ! ε		
+| factor	                        | ```<factor>``` ::= ```<identifier>``` ! ```<unsigned constant>``` ! (```<expression>```)						 
+| relation_operator	             	| ```<relational operator>``` ::= equal ! less ! less_equal ! great_than ! great_equal ! not_equal			 
+| identifier	                     	| ```<identifier>``` ::= id												  
+| unsigned_const	                | ```<unsigned constant>``` ::= digit											 							 
 
 
 ## Lists of Short Names and its meaning 
 ---------------------------------------------
-1> <program> 		:= Start symbol 
-2> <rtype> 	 		:= Return type, means the function that returns the value 
-3> <dec_list> 		:= Declaration list, where to declare the variables as well as constant 
-4> <stmt_list> 		:= Statement list, a list of statements are provided for assignment or for 								other purpose like for loop, if statement, etc.
-5> <stmt>			:=
-6> <dtype> 			:= Data type, means the type of data such as int, char, float, double, etc.
-7> <id_list>		:= A list of identifiers
-8> <id>				:= May have variable or char or strings 
-9> <exp>			:= Expression , such as multiplication, division , addition, substraction , etc.
-						Also can initialize variables 
-10> <cndtn>			:= A state of condition (i <= 10 ) meaning, i should have be less than or equal 						to 10. This is called conditions. Mostly applicable in if statement, loop 							statement. 
-11> <term>			:= Only addition and substaction specified
-12> <factor> 		:= Only multiplication and divison specified
-13> <relop> 		:= Relational operation such as < , > , <= , >= , == 
+1. ```<program>```  	:= Start symbol 
+2. ```<rtype>```	:= Return type, means the function that returns the value 
+3. ```<dec_list>```	:= Declaration list, where to declare the variables as well as constant 
+4. ```<stmt_list>```	:= Statement list, a list of statements are provided for assignment or for other purpose like for loop, if statement, etc.
+5. ```<stmt>```		:=
+6. ```<dtype>```	:= Data type, means the type of data such as int, char, float, double, etc.
+7. ```<id_list>```	:= A list of identifiers
+8. ```<id>```		:= May have variable or char or strings 
+9. ```<exp>```		:= Expression , such as multiplication, division , addition, substraction , etc. Also can initialize variables 
+10. ```<cndtn>```	:= A state of condition (i <= 10 ) meaning, i should have be less than or equal to 10. This is called conditions. Mostly applicable in if statement,loop statement. 
+11. ```<term>```   	:= Only addition and substaction specified
+12. ```<factor>``` 	:= Only multiplication and divison specified
+13. ```<relop>```  	:= Relational operation such as < , > , <= , >= , == 
 
 ## Which sample language did CFG is constructed ?
 ------------------------------------------------------------------
