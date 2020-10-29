@@ -50,4 +50,4 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 8th Sem 
 
 
-##College LAB Life :grin:
+## College LAB Life :grin:
