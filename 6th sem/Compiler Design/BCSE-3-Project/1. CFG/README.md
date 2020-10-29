@@ -42,7 +42,8 @@ The whole constructed CFG are written in the short form manner.
 ## Designing the grammer and its production
 ------------------------------------------------------------------------
 
-Set of Terminals :<br />
+Set of Terminals
+---------------------------------
 	main <br />
  	int <br />
  	if <br /> 
