@@ -8,7 +8,7 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 
 ## LABORATORY WORK
 
-### 1ST YEAR
+### 1ST YEAR [Freshman Year]
 
 1st Sem
 
@@ -17,7 +17,7 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
  
 ---
 
-### 2ND YEAR
+### 2ND YEAR [Sophomore Year]
 							
 3rd Sem 
  * Data Structures and Algorithms
@@ -28,19 +28,26 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
 
 ---
 
-### 3RD YEAR
+### 3RD YEAR [Pre-Final Year]
 
 5th Sem
  * Operating System
  * System Programming
  * Computer Graphics 
  
-6th Sem(continue)
+6th Sem
  * Compiler Design
  * DBMS
  * Computer Network 
-
-
-
  
+ ---
+ 
+ ### 4th YEAR [Final Year]
 
+7th Sem(continue)
+ * Internet Technology
+ 
+8th Sem 
+
+
+##College LAB Life :grin:
