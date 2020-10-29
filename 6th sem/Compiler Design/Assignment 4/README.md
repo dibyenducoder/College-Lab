@@ -4,21 +4,24 @@ Therefore,lex and yacc are normally used together. This is how we usually constr
 Input Stream (characters) -> Lex (tokens) -> Yacc (Syntax Tree) -> Our Applcation
 
 From the question 1a., we were told to design a grammar to recognise a string of the form AA...ABB...B, i.e. any number of
-`A’s followed by any number of `B’s. Use LEX and YACC to recognise it. Which one is
+`A’s followed by any number of B’s` . Use LEX and YACC to recognise it. Which one is
 a better option?
 Ans. In my opinion, both are required since Yacc helps us to analyse the structure of the input stream, and operate of the desired output.
 
 In 1b. The answer to the key remains same as the above solution ,the only difference is the strucure and outcome of the program.
 
----------------------------------------------------------//------------------------------------
+---------------------------------------------------------------------------------------------
 
-Q.Which is OS use ?
-Ans. Linux
+Q.Which is OS use ? <br/>
+Ans.
+    
+              Linux
  
-Q.How did we run ?
+Q.How did we run ? <br/>
 Ans.   
-lex <filename>.l
-yacc -d <filename>.y
-gcc -Wall -o <filename> y.tab.c lex.yy.c (if no mathematical calculation is required...for 1a and 1b)
-gcc -Wall -o <filename> y.tab.c lex.yy.c -lm (if mathematical calculaton is required...for 2 and 3)
+
+     lex <filename>.l
+     yacc -d <filename>.y
+     gcc -Wall -o <filename> y.tab.c lex.yy.c (if no mathematical calculation is required...for 1a and 1b)
+     gcc -Wall -o <filename> y.tab.c lex.yy.c -lm (if mathematical calculaton is required...for 2 and 3)
  
