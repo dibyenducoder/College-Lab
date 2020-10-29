@@ -1,4 +1,4 @@
-#Part - III 
+# Part - III 
 		       Write a Top-Down Parser for the given CFG  
 --------------------------------------------------------------------
 
@@ -37,20 +37,22 @@ The user need c++11 or higher to run the code in Windows.
 
 Step 1 : Compile the code 
 Now, compile the code by writing this in terminal :
-		g++ TopDownParser -std=c++11
+
+			g++ TopDownParser -std=c++11
 
 Step 2: Execute the code
+	Run it:
 
-Run it:
-	  a.exe 
+
+	  			a.exe 
 
 Output Format : 
-		*Original Production
-		*After removing the left recursion, production prints 
-		*First Sets 
-		*Follow Sets 
-		*Parse Tree 
-			|-> row,column 
+* Original Production
+* After removing the left recursion, production prints 
+* First Sets 
+* Follow Sets 
+* Parse Tree 
+	* row,column 
 
 
 ## What is the need of FIRST AND FOLLOW set ?
