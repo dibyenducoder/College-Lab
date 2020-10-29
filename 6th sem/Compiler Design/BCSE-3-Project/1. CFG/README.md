@@ -44,24 +44,24 @@ The whole constructed CFG are written in the short form manner.
 
 Set of Terminals
 ---------------------------------
-	main <br />
- 	int <br />
- 	if <br /> 
- 	else <br />
- 	return <br /> 
- 	+ <br /> 
- 	- <br /> 
- 	* <br /> 
- 	/ <br /> 
- 	= <br /> 
- 	( <br /> 
- 	) <br /> 
- 	{ <br /> 
- 	} <br /> 
- 	id <br /> 
- 	digit <br /> 
- 	; <br /> 
- 	$ <br />
+	main 
+ 	int 
+ 	if 
+ 	else 
+ 	return  
+ 	+  
+ 	-  
+ 	*  
+ 	/  
+ 	= 
+ 	(  
+ 	) 
+ 	{  
+ 	}  
+ 	id  
+ 	digit  
+ 	; 
+ 	$ 
 
  Set of Non-terminals 
  ------------------------------
