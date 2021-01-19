@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#userlogin{
+	position:absolute ;
+	width: 350px;
+	height:500px;
+	padding:20px;
+	top:50%; 
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.form{
+	padding : 20px;
+}
+.pt-1{
+	padding-top: 1rem;
+}
