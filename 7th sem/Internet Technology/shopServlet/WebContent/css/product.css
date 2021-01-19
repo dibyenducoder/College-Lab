@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Product CSS   */
+.product-sort form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 5rem;
+}
+
+.product-sort form .item {
+  margin-right: 1rem;
+}
+
+.product-sort form label {
+  color: black;
+}
+
+.product-sort form select {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  width: 12rem;
+  border: 1px solid #f2f2f2;
+  outline: none;
+}
+
+.product-sort form a {
+  display: inline-block;
+  padding: 1rem 5rem;
+  border-radius: 4rem;
+  margin-right: 1rem;
+  background-color: #0b9d8a;
+  color: white;
+  transition: all 300ms ease-in-out;
+}
+
+.product-sort form a:hover {
+  background-color: #f76b6a;
+  text-decoration:none;
+}
