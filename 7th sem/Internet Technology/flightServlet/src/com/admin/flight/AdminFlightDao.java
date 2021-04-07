@@ -11,7 +11,7 @@ public class AdminFlightDao {
 	
 	private String dburl = "jdbc:mysql://localhost:3306/firstschema";
 	private String dbusername = "root";
-	private String dbpassword = "Tomcat@123";
+	private String dbpassword = "";
 	private String dbdriver = "com.mysql.jdbc.Driver" ;
 	
 	public void loadDriver(String dbDriver)
