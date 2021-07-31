@@ -48,6 +48,6 @@ All the detailed syllabus for JU-CSE is [here](http://www.jaduniv.edu.in/upload_
  * Internet Technology
  
 8th Sem 
-
+  * VLSI
 
 ## College LAB Life :grin:
